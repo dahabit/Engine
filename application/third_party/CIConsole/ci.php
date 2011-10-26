@@ -29,7 +29,7 @@ if (! defined('STDIN')) die('Run only CLI mode');
 // Autoload base classes
 function __autoload($className) {
     if (DEBUG) echo "Initialize $className\n";
-    require_once dirname(__FILE__) . DS . 'core' . DS . $className . '.php';
+    require_once CIPATH . DS . 'core' . DS . $className . '.php';
 }
 
 // Get array arguments
