@@ -4,7 +4,7 @@ class MY_Form_validation extends CI_Form_validation
 	function unique($value, $params) 
 	{  
 		$CI =& get_instance();  
-		$CI->load->database();  
+		$CI->load->database();
 		$CI->form_validation->set_message('unique', 'The %s is already being used.');  
 		
 		list($table, $field) = explode(".", $params, 2);  

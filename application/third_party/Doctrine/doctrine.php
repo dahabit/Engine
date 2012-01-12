@@ -19,7 +19,7 @@
 
 define('APPPATH', getcwd() . '/application/');
 define('BASEPATH', getcwd() . '/system/');
-define('ENVIRONMENT', 'production'); // IMPORTANT! This should match the value in CodeIgniter's /index.php
+define('ENVIRONMENT', 'development'); // IMPORTANT! This should match the value in CodeIgniter's /index.php
 
 chdir( APPPATH . 'third_party');
 require_once 'Doctrine/Common/ClassLoader.php';

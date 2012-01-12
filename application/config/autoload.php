@@ -52,7 +52,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('doctrine', 'twig');
+$autoload['libraries'] = array('doctrine', 'twig', 'session');
 
 
 /*
@@ -64,7 +64,7 @@ $autoload['libraries'] = array('doctrine', 'twig');
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array();
+$autoload['helper'] = array('security', 'url', 'translation', 'static');
 
 
 /*
