@@ -3,11 +3,11 @@
 
 
 /* TEAM */
-  Developer: MunGell
-  Site: www.codeblog.ru
+  Developer:
+  Site:
   Twitter: 
-  Location: Earth 
+  Location:
 
 /* SITE */
   Standards: HTML5, CSS3
-  Software: Core5
+  Software: CZitDB

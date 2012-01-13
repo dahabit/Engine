@@ -13,6 +13,7 @@
 	<link rel="stylesheet/less" href="{{ static_url('style/less/bootstrap.less') }}" media="all">
 	<link rel="stylesheet" type="text/css" href="{{ static_url('style/prettify.css') }}">
 	<link rel="stylesheet" href="{{ static_url('style/h5bp.css') }}">
+	<link rel="stylesheet" href="{{ static_url('style/app/app.css') }}">
 	<script src="{{ static_url('js/less.min.js') }}"></script>
 	<script src="{{ static_url('js/modernizr.min.js') }}"></script>
 </head>
@@ -43,7 +44,7 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="{{ static_url('js/jquery.min.js') }}"><\/script>')</script>
 		<script defer src="{{ static_url('js/h5bp_plugins.js') }}"></script>
-		<!--script defer src="js/script.js"></script-->
+		<script defer src="{{ static_url('js/app/app.js') }}"></script>
 	{% endblock %}
 	<!-- end scripts-->
 

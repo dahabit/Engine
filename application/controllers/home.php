@@ -16,8 +16,9 @@ class Home extends CI_Controller {
      */
     public function index()
     {
-		echo $this->twig->render('h5bp.html', array(
-			'title' => "Test page"
+		echo $this->twig->render('home.html', array(
+			'title'		=> "Test page",
+			'content'	=> "Hi! I am the first page"
 		));
     }
      

@@ -1,30 +1,37 @@
-CIBoilerplate
+CZitDB
 =========
 
 Includes:
 ---------
 
-[CodeIgniter 2.0.3](http://codeigniter.com/)
+[CodeIgniter 2.1.0](http://codeigniter.com/)
 
 [Zend Framework 1.11](http://www.zend.com/)
 
 [Doctrine 2.1](http://www.doctrine-project.org/)
 
-[Twig 1.3](http://twig.sensiolabs.org/)
+[Twig 1.5.1](http://twig.sensiolabs.org/)
 
 [MySQL WorkBench Exporter](https://github.com/johmue/mysql-workbench-schema-exporter)
 
 [CI Console](https://bitbucket.org/anatooly/ciconsole)
 
-MySQL WorkBench Exporter Console
-
-Gravatar integration
-
 [Twitter Bootstrap CSS v.1.4](https://github.com/twitter/bootstrap)
 
 [Less v. 1.1.5](http://lesscss.org/)
 
-[HTML IE Support](http://code.google.com/p/html5shim/)
+[Twitter Bootstrap](http://twitter.github.com/bootstrap/)
+
+[html5boilerplate](http://html5boilerplate.com)
+
+[Modernizr](http://www.modernizr.com/)
+
+[Google Prettify](http://code.google.com/p/google-code-prettify/)
+
+MySQL WorkBench Exporter Console
+
+Gravatar integration
+
 
 Also used:
 --------------
@@ -33,31 +40,20 @@ Also used:
 
 [Twig-CodeIgniter integration library](https://github.com/bmatschullat/Twig-Codeigniter) (changed)
 
-[Doctrine-CodeIgniter article](http://wildlyinaccurate.com/integrating-doctrine-2-with-codeigniter-2/) (changed)
+[Doctrine-CodeIgniter integration](http://wildlyinaccurate.com/integrating-doctrine-2-with-codeigniter-2/) (changed)
 
-[CodeIgniter MailChimp API 1.2](https://github.com/codepotato/codeigniter-mailchimp-api)
-
-DB Installation
-============
-
-1. Create a DB in MySQL WorkBench
-2. Save it in .mwb format
-3. Execute:
-
-	php [annotation|yml] path/to/file.mwb command
-	
-4. Unzip the archive and copy models to the models folder
-5. Execute:
-
-	php doctrine orm:schema-tool:create
-	
-6. Done, DB installed
-
-Useful
+Documentation
 ===========
+
+[Codeigniter Documentation](http://codeigniter.com/user_guide/)
+
+[Zend Documentation](http://framework.zend.com/manual/en/)
+
 [Doctrine documentation](http://www.doctrine-project.org/docs/orm/2.1)
 
 [Doctrine console documentation](http://www.doctrine-project.org/docs/orm/2.1/en/reference/tools.html)
+
+[Twig Documentation](http://twig.sensiolabs.org/)
 
 CI Console Documentation
 ========================
@@ -121,11 +117,34 @@ Appendix
 	php readme hmvc (read a bundle readme)
 
 	php bundle readme hmvc (read a bundle readme)
+	
+MySQL Workbench Console Documentation
+===================================
 
-Changes in CodeIgniter Core
-============================
+	php mwbexport [annotation | yml] [path/to/file.mwb]
 
-No changes yet
+
+Database Installation
+============
+
+1. Create a database in MySQL WorkBench
+2. Save it in .mwb format
+3. Execute:
+
+	php mwbexport [annotation|yml] path/to/file.mwb command
+
+4. Unzip the archive and copy models to the models folder
+5. Execute:
+
+	php doctrine orm:schema-tool:create
+
+6. Done, DB installed
+
+License
+========
+Each third-party part of this software distributes under its license.
+Everything else here is unlicensed.
+For more information, please refer to [unilicense.org](http://unlicense.org/)
 
 ToDo
 ====
