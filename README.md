@@ -6,7 +6,7 @@ Includes:
 
 [CodeIgniter 2.1.0](http://codeigniter.com/)
 
-[Zend Framework 1.11](http://www.zend.com/)
+[Zend Framework 1.11](http://www.zend.com/) (changed)
 
 [Doctrine 2.1](http://www.doctrine-project.org/)
 
@@ -28,9 +28,17 @@ Includes:
 
 [Google Prettify](http://code.google.com/p/google-code-prettify/)
 
-MySQL WorkBench Exporter Console
+[Google Goo.gl short URL helper](http://goo.gl)
 
-Gravatar integration
+[CanvasLoader JS](https://github.com/heartcode/CanvasLoader)
+
+Translation helper
+
+Russian date helper
+
+Short link generator library
+
+MySQL WorkBench Exporter Console
 
 
 Also used:
@@ -41,6 +49,8 @@ Also used:
 [Twig-CodeIgniter integration library](https://github.com/bmatschullat/Twig-Codeigniter) (changed)
 
 [Doctrine-CodeIgniter integration](http://wildlyinaccurate.com/integrating-doctrine-2-with-codeigniter-2/) (changed)
+
+[Gravatar integration](https://github.com/emberlabs/gravatarlib)
 
 Documentation
 ===========
